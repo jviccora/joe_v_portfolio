@@ -71,6 +71,7 @@ section>h1 {
 }
 
 .card {
+    float: middle;
     margin-top: 50px;
     Margin-bottom: 500px;
 }
