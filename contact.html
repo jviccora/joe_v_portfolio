@@ -28,6 +28,7 @@
                 <li class="nav-item"> <a class="nav-item nav-link" href="https://github.com/jviccora">Github</a></li>
                 <li class="nav-item"> <a class="nav-item nav-link" href="https://jviccora.github.io/joe_v_portfolio/contact">Contact</a></li>
                 <li class="nav-item"> <a class="nav-item nav-link" href="https://jviccora.github.io/joe_v_portfolio/portfolio">Portfolio</a></li>
+                <li class="nav-item"> <a class="nav-item nav-link" href="https://jviccora.github.io/joe_v_portfolio/Resume">Resume</a></li>
             </ul>
             </div>
     </nav>
@@ -50,46 +51,41 @@
                         </ul>
 
 
+
+
                     </div>
                 </div>
             </div>
             <div class="column">
                 <div class="card" id="contact-info">
                     <div class="contact-form">
-                        <form action="mailto:jviccora@yahoo.com" method="POST" enctype="text/plain" id="name-form">
 
-                            <h1>Contact Us</h1>
-                            <div class="txtb">
-                                <label>Full Name:</label>
-                                <input type="text" name="fullName" value="" placeholder="Enter Your Name">
-                            </div>
-
-                            <div class="txtb">
-                                <label>Email:</label>
-                                <input type="text" name="Email" value="" placeholder="Email Address">
-                            </div>
-
-                            <div class="txtb">
-                                <label>Cell Phone:</label>
-                                <input type="text" name="cellPhone" value="" placeholder="Phone Number">
-                            </div>
-                            <div class="txtb">
-                                <label>Subject:</label>
-                                <input type="text" name="Subject" value="" placeholder="Subject">
-                            </div>
-                            <div class="txtb">
-                                <label>Message:</label>
-                                <textarea name="message"></textarea>
-                            </div>
-
-                            <input type="submit" value="Send" class="btn">
-
+                        <h2>Contact me</h2>
+                        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                            Name:<br>
+                            <input type="text" name="name" id="txtb"><br> E-mail:
+                            <br>
+                            <input type="text" name="mail" id="txtb"><br> Message:
+                            <br>
+                            <input type="text" name="message" size="30" id="txtb"><br>
+                            <br>
+                            <input type="submit" value="Send" id="btn">
+                            <input type="reset" value="Reset" id=btn2>
                         </form>
-                        <p id="result"></p>
                     </div>
                 </div>
             </div>
-            <script src="form.js"></script>
+
+
+            <div class="column">
+                <div class="card" id="location-info">
+                    <h2>Location</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24182.015417737308!2d-73.95367991569938!3d40.74548384064715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2592bc7bab159%3A0x56156cc4c5ee8e31!2sLong%20Island%20City%2C%20Queens%2C%20NY!5e0!3m2!1sen!2sus!4v1585802008579!5m2!1sen!2sus"
+                        width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+
+
             <footer id="footer">
                 <ul class="social">
                     <li><a href="http://www.github.com/jviccora">Github</a></li>
